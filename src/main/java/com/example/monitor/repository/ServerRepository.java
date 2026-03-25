@@ -1,6 +1,6 @@
 package com.example.monitor.repository;
 
-import com.example.monitor.model.Server;
+import com.example.monitor.entity.Server;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

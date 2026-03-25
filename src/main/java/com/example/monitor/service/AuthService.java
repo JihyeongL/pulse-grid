@@ -1,6 +1,6 @@
 package com.example.monitor.service;
 
-import com.example.monitor.model.User;
+import com.example.monitor.entity.User;
 import com.example.monitor.repository.UserRepository;
 import com.example.monitor.security.JwtProvider;
 import lombok.RequiredArgsConstructor;

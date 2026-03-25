@@ -1,4 +1,4 @@
-package com.example.monitor.model;
+package com.example.monitor.enums;
 
 public enum MonitorType {
     PING,

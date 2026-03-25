@@ -1,6 +1,6 @@
 package com.example.monitor.controller;
 
-import com.example.monitor.model.Server;
+import com.example.monitor.entity.Server;
 import com.example.monitor.service.ServerService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

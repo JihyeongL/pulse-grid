@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
-import com.example.monitor.model.User;
+import com.example.monitor.entity.User;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController

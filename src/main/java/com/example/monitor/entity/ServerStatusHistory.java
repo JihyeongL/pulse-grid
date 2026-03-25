@@ -1,4 +1,6 @@
-package com.example.monitor.model;
+package com.example.monitor.entity;
+
+import com.example.monitor.enums.ServerStatus;
 
 import jakarta.persistence.*;
 import lombok.Getter;

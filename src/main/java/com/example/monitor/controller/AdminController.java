@@ -2,6 +2,7 @@ package com.example.monitor.controller;
 
 import com.example.monitor.repository.ServerRepository;
 import com.example.monitor.repository.UserRepository;
+import com.example.monitor.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;

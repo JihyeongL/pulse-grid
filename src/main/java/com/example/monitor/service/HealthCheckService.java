@@ -1,11 +1,11 @@
 package com.example.monitor.service;
 
-import com.example.monitor.model.ServerStatus;
+import com.example.monitor.enums.ServerStatus;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
-import com.example.monitor.model.Server;
-import com.example.monitor.model.MonitorType;
+import com.example.monitor.entity.Server;
+import com.example.monitor.enums.MonitorType;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;

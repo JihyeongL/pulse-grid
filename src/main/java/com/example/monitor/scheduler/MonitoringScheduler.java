@@ -1,8 +1,8 @@
 package com.example.monitor.scheduler;
 
-import com.example.monitor.model.Server;
-import com.example.monitor.model.ServerStatus;
-import com.example.monitor.model.ServerStatusHistory;
+import com.example.monitor.entity.Server;
+import com.example.monitor.enums.ServerStatus;
+import com.example.monitor.entity.ServerStatusHistory;
 import com.example.monitor.repository.ServerRepository;
 import com.example.monitor.repository.ServerStatusHistoryRepository;
 import com.example.monitor.service.AlertService;

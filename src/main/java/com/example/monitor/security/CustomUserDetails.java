@@ -1,6 +1,6 @@
 package com.example.monitor.security;
 
-import com.example.monitor.model.User;
+import com.example.monitor.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;

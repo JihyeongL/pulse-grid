@@ -1,7 +1,7 @@
 package com.example.monitor.controller;
 
-import com.example.monitor.model.SubscriptionPlan;
-import com.example.monitor.model.User;
+import com.example.monitor.enums.SubscriptionPlan;
+import com.example.monitor.entity.User;
 import com.example.monitor.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

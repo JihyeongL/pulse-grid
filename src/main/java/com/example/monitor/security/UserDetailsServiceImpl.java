@@ -1,6 +1,6 @@
 package com.example.monitor.security;
 
-import com.example.monitor.model.User;
+import com.example.monitor.entity.User;
 import com.example.monitor.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;

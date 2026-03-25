@@ -1,7 +1,7 @@
 package com.example.monitor.config;
 
-import com.example.monitor.model.Role;
-import com.example.monitor.model.User;
+import com.example.monitor.enums.Role;
+import com.example.monitor.entity.User;
 import com.example.monitor.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
