@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: PulseGrid
+  datasource:
+    url: jdbc:postgresql://aws-1-ap-northeast-1.pooler.supabase.com:6543/postgres?prepareThreshold=0
+    username: postgres.tspucqlwqpyrqienhksr
+    password: 1HQwBd9V3DX5xMq9
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+    open-in-view: false
+
+server:
+  port: 8080
+
+app:
+  jwt:
+    secret: 9A458897D9B228BA1D0417646EE6FEAE24EFDAC86A6F564CE03B16298BB9DDB3
+    expiration-ms: 86400000
+  monitor:
+    max-servers-per-user: 3
+    thread-pool-size: 5
+    scheduler-delay-ms: 60000 # Run scheduler every 1 minute

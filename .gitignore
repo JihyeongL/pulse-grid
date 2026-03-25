@@ -1,0 +1,27 @@
+# Logs
+*.log
+*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / Dependencies
+*.jar
+.gradle/
+build/
+bin/
+out/
+target/
+node_modules/
+dist/
+
+# Local configuration
+.env
+.env.local
